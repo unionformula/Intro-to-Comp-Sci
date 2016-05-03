@@ -30,5 +30,6 @@ import java.util.Scanner;
 				}
 				System.out.print("\n");
 			}
+			keyboard.close();
 		}
 	}
