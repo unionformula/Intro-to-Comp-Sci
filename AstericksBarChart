@@ -8,20 +8,19 @@ row of asterisks.  Each asterisk should represent $100 of sales.  Here is an exa
 import java.util.Scanner;
 	public class AstericksBarChart{
 		public static void main(String [] args){
-			Scanner imput = new Scanner(System.in);
+			Scanner input = new Scanner(System.in);
 			
 			System.out.println("Please imput today's sales for the five stores.");
 			
 			int[] fivestores;
 			fivestores = new int[4];
-			
-      int valueImput=0;
+			int valueInput=0;
 			int i=0;
-      int n=0;
-      
+			int n=0;
+			
 			for (i=0 ; i<4 ; i++){
-				valueImput = keyboard.nextInt();
-				fivestores[i] = valueImput/100;
+				valueInput = keyboard.nextInt();
+				fivestores[i] = valueInput/100;
 			}
 			
 			for (i=0 ; i<4 ; i++){
